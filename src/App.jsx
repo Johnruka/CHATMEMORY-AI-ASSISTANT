@@ -19,8 +19,7 @@ function App() {
       setResponse("Error: Couldn't fetch response.");
     }
   };
-
-  return (
+return (
     <div className="App">
       <h1>ChatMemory AI Assistant</h1>
       <form onSubmit={handleSubmit}>
